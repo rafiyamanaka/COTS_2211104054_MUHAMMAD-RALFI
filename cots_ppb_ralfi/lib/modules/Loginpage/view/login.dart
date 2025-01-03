@@ -85,7 +85,7 @@ class RegisterPage extends StatelessWidget {
                   // Navigasi ke Homepage ketika tombol ditekan
                   Navigator.pushReplacement(
                     context,
-                    MaterialPageRoute(builder: (context) => Homepage()),
+                    MaterialPageRoute(builder: (context) => HomePage()),
                   );
                 },
                 style: ElevatedButton.styleFrom(
